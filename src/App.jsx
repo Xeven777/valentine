@@ -50,7 +50,7 @@ export default function Page() {
         <>
           <img
             src={lovesvg}
-            className="fixed animate-pulse -z-10 top-10 md:left-24 left-10 md:w-40 w-32"
+            className="fixed animate-pulse top-10 md:left-24 left-6 md:w-40 w-28"
           />
           <img
             src={lovesvg2}
@@ -65,7 +65,7 @@ export default function Page() {
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
-              className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg mr-4`}
+              className={`bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg mr-4`}
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
@@ -73,7 +73,7 @@ export default function Page() {
             </button>
             <button
               onClick={handleNoClick}
-              className=" bg-rose-500 hover:bg-rose-700 rounded-lg text-white font-bold py-2 px-4"
+              className=" bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
             >
               {noCount === 0 ? "No" : getNoButtonText()}
             </button>
