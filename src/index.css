@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background: url(./assets/bg.avif);
+  background: url("./assets/bg1.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
